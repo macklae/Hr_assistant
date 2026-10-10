@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# LangGraph runtime and local HITL databases
+.langgraph_api/
+data/*.db
+
+
+# Secrets and environment files
+.env.*
+!.env.example
+*.pem
+*.key
+
+# macOS
+.DS_Store
